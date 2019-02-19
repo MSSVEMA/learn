@@ -5,14 +5,16 @@ def mod(a)
     return a
 end
 
-def mod_add(a, b)
+def mod_add(a, b, c)
 	a = mod(a)
 	b = mod(b)
-	return a+b
+	c = mod(c)
+	return a+b+c
 end
 
-def mod_subtract(a, b)
+def mod_subtract(a, b, c)
 	a = mod(a)
 	b = mod(b)
-	return a-b
+	c = mod(c)
+	return a-b-c
 end
